@@ -3,7 +3,7 @@
     "base_model": "Qwen/Qwen3.5-0.8B",
     "revision": "2fc06364715b967f1860aea9cf38778875588b17",
     "seed": 42,
-    "num_train_epochs": 20,
+    "num_train_epochs": 10,
     "warmup_steps": 6,
     "lr": 0.0002,
     "lora_r": 16,
@@ -18,7 +18,7 @@
     "transformers": "5.18.0",
     "peft": "0.21.1",
     "trl": "1.14.2",
-    "torch": "2.11.0+cu130"
+    "torch": "2.14.1+cu130"
   },
   "method": "LoRA（量子化なし）",
   "before": {
@@ -27,15 +27,15 @@
     "format_rate": 0.09523809523809523,
     "content_rate": 0.0,
     "both_rate": 0.0,
-    "seconds": 58.9
+    "seconds": 24.7
   },
   "after": {
     "label": "after",
     "n": 21,
     "format_rate": 1.0,
-    "content_rate": 0.9047619047619048,
-    "both_rate": 0.9047619047619048,
-    "seconds": 42.0
+    "content_rate": 0.8095238095238095,
+    "both_rate": 0.8095238095238095,
+    "seconds": 53.6
   },
   "regressed": [],
   "knowledge": [
@@ -53,7 +53,7 @@
       "学習前の分類": "format_error",
       "学習前の出力": "{\"answer\": \"確認が必要\"}",
       "学習後の分類": "needs_review",
-      "学習後の出力": "{\"answer\": \"この FAQ には記載がありません。運営に確認が必要です。\", \"needs_review\": true}"
+      "学習後の出力": "{\"answer\": \"この FAQ には記載がありません。必ずに確認が必要です。\", \"needs_review\": true}"
     },
     {
       "質問": "次回の講義のテーマは何ですか",

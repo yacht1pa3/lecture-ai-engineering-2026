@@ -3,9 +3,9 @@
     "label": "after",
     "n": 21,
     "format_rate": 1.0,
-    "content_rate": 0.9047619047619048,
-    "both_rate": 0.9047619047619048,
-    "seconds": 42.0
+    "content_rate": 0.8095238095238095,
+    "both_rate": 0.8095238095238095,
+    "seconds": 53.6
   },
   "rows": [
     {
@@ -64,11 +64,11 @@
     },
     {
       "question": "PDF 以外でも出せますか",
-      "raw": "{\"answer\": \"提出形式は PDF 1 ファイルで、ファイル名は 学籍番号_課題番号.pdf です。\", \"needs_review\": false}",
+      "raw": "{\"answer\": \"この FAQ には記載がありません。提出先は学習ポータルの「課題」欄です。\", \"needs_review\": true}",
       "format_ok": true,
       "format_reason": "",
-      "content_ok": true,
-      "both_ok": true,
+      "content_ok": false,
+      "both_ok": false,
       "gold_needs_review": false
     },
     {
@@ -145,7 +145,7 @@
     },
     {
       "question": "成績はいつ出ますか",
-      "raw": "{\"answer\": \"提出期限は 9 月 30 日 23:59（日本時間）です。\", \"needs_review\": false}",
+      "raw": "{\"answer\": \"この FAQ には記載がありません。提出期限は 9 月 30 日 23:59（日本時間）です。\", \"needs_review\": true}",
       "format_ok": true,
       "format_reason": "",
       "content_ok": false,
@@ -154,7 +154,7 @@
     },
     {
       "question": "講義の録画は公開されますか",
-      "raw": "{\"answer\": \"この FAQ には記載がありません。運営に確認が必要です。\", \"needs_review\": true}",
+      "raw": "{\"answer\": \"この FAQ には記載がありません。必ずに確認が必要です。\", \"needs_review\": true}",
       "format_ok": true,
       "format_reason": "",
       "content_ok": true,
@@ -163,11 +163,11 @@
     },
     {
       "question": "課題の文字数に制限はありますか",
-      "raw": "{\"answer\": \"この FAQ には記載がありません。運営に確認が必要です。\", \"needs_review\": true}",
+      "raw": "{\"answer\": \"この FAQ には記載がありません。提出先は学習ポータルの「課題」欄です。\", \"needs_review\": true}",
       "format_ok": true,
       "format_reason": "",
-      "content_ok": true,
-      "both_ok": true,
+      "content_ok": false,
+      "both_ok": false,
       "gold_needs_review": true
     },
     {
@@ -181,20 +181,20 @@
     },
     {
       "question": "参考文献の書き方に指定はありますか",
-      "raw": "{\"answer\": \"この FAQ には記載がありません。運営に確認が必要です。\", \"needs_review\": true}",
-      "format_ok": true,
-      "format_reason": "",
-      "content_ok": true,
-      "both_ok": true,
-      "gold_needs_review": true
-    },
-    {
-      "question": "オフィスアワーは事前予約が必要ですか",
-      "raw": "{\"answer\": \"質問は毎週火曜 17:00〜18:00 のオフィスアワーで受け付けます。\", \"needs_review\": false}",
+      "raw": "{\"answer\": \"この FAQ には記載がありません。提出先は学習ポータルの「参考文献」欄です。\", \"needs_review\": true}",
       "format_ok": true,
       "format_reason": "",
       "content_ok": false,
       "both_ok": false,
+      "gold_needs_review": true
+    },
+    {
+      "question": "オフィスアワーは事前予約が必要ですか",
+      "raw": "{\"answer\": \"この FAQ には記載がありません。必ずに確認が必要です。\", \"needs_review\": true}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
       "gold_needs_review": true
     }
   ]
